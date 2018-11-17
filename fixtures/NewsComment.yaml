@@ -1,0 +1,5 @@
+App\Entity\NewsComment:
+  news_comment_{1..500}:
+    text: <text()>
+    createdAt: <dateTime()>
+    updatedAt: <dateTime()>

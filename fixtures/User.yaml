@@ -1,0 +1,13 @@
+App\Entity\User:
+  user_{1..100}:
+    email: <email()>
+    title: <title()>
+    firstName: <firstName()>
+    lastName: <lastName()>
+    phoneNumber: <phoneNumber()>
+    job: <jobTitle()>
+    company: <company()>
+    birthAt: <dateTimeBetween('-60 years', '-20 years')>
+    description: <text()>
+    createdAt: <dateTime()>
+    updatedAt: <dateTime()>

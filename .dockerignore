@@ -1,0 +1,11 @@
+**/*.log
+**/._*
+**/.DS_Store
+**/.gitignore
+**/.gitattributes
+**/Thumbs.db
+**/*.md
+**/.dockerignore
+Dockerfile*
+!var/.gitignore
+var/*

@@ -1,0 +1,11 @@
+App\Entity\News:
+  news_{1..100}:
+    title: <sentence()>
+    text: <text()>
+    published: <boolean()>
+    readTime: <numberBetween(0, 60)>
+    categories: '<numberBetween(0, 3)>x @category_*'
+    comments: '<numberBetween(3, 10)>x @news_comment_*'
+    author: '@user_*'
+    createdAt: <dateTime()>
+    updatedAt: <dateTime()>

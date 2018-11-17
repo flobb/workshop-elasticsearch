@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="row">
+        <div class="col-md-12">
+            {{ form(form) }}
+        </div>
+    </div>
+    {% if results is not empty %}
+    <div class="row">
+        <div class="col-md-12">
+            {{ dump(results) }}
+        </div>
+    </div>
+    {% endif %}
+{% endblock %}

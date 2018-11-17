@@ -1,0 +1,27 @@
+version: '3.3'
+
+services:
+
+#######
+# Linux
+#######
+
+#  app:
+#    volumes:
+#      - ~/.composer:/home/www-data/.composer
+
+#######
+# MacOS
+#######
+
+#  elasticsearch:
+#    environment:
+#      - "ES_JAVA_OPTS=-Xms1g -Xmx1g"
+#
+#  nginx-proxy:
+#    image: jwilder/nginx-proxy
+#    volumes:
+#      - /var/run/docker.sock:/tmp/docker.sock:ro
+#    ports:
+#      - 80:80
+#      - 443:443
